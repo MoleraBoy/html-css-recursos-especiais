@@ -1,0 +1,25 @@
+*{
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background: #12c2e9;
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+    font-family: "helvetica", sans-serif;
+}
+
+header{
+    border: 1px solid yellow;
+    padding: 10px;
+}
+
+nav{
+    border: 1px solid ghostwhite;
+}
+
+footer{
+    border: 1px solid greenyellow;
+}
+
