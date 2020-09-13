@@ -1,0 +1,30 @@
+*{
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background: lightcoral;
+}
+
+#conteudo{
+    height: 600px;
+    background: lightgray;
+    display: flex;
+    /* row | row-reverse | column | column-reverse */
+    flex-direction: row;
+    /* nowrap | wrap | wrap-reverse */
+    /* nowrap faz os itens se apertarem pra caber */
+    flex-wrap: nowrap;
+    /* flex-start | flex-end | center | space-between | space-around */
+    justify-content: space-around; 
+    /* stretch | center| flex-start | flex-end | baseline */
+    align-items: baseline;
+
+}
+
+.item{
+    background: whitesmoke;
+    border: 1px dotted lightcoral;
+    margin: 10px;
+}
