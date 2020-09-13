@@ -23,3 +23,10 @@ footer{
     border: 1px solid greenyellow;
 }
 
+article{
+    background: rgba(173, 216, 230, 0.356);
+}
+
+section{
+    border: 1px solid gray;
+}

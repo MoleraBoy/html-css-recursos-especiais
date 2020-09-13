@@ -10,5 +10,5 @@ O controle das tarefas desse projeto será realizado no Gitub
 :package: nova funcionalidade 
 :up: atualização
 :beetle: correção de bug
-cccccccc release
+:checkered_flag: release
 :information_desk_person: anotações
