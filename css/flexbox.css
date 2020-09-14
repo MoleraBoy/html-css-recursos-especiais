@@ -1,30 +1,92 @@
-*{
+* {
     text-decoration: none;
     list-style: none;
 }
 
-body{
+body {
     background: lightcoral;
 }
 
-#conteudo{
+#conteudo {
     height: 600px;
     background: lightgray;
     display: flex;
-    /* row | row-reverse | column | column-reverse */
-    flex-direction: row;
-    /* nowrap | wrap | wrap-reverse */
-    /* nowrap faz os itens se apertarem pra caber */
-    flex-wrap: nowrap;
-    /* flex-start | flex-end | center | space-between | space-around */
-    justify-content: space-around; 
-    /* stretch | center| flex-start | flex-end | baseline */
-    align-items: baseline;
-
+    /* row | row-reverse | column | column-reverse  */
+    /* flex-direction: row; */
+    /* nowrap | wrap | wrap-reverse  */
+    /* nowrap faz os itens se apertarem pra caber  */
+    /* flex-wrap: nowrap; */
+    /* flex-start | flex-end | center | space-between | space-around  */
+    /* justify-content: space-around;  */
+    /* stretch | center| flex-start | flex-end | baseline  */
+    /* align-items: baseline; */
 }
 
-.item{
+
+.item {
+    width: 200px;
+    height: 100px;
     background: whitesmoke;
     border: 1px dotted lightcoral;
     margin: 10px;
+
 }
+
+
+
+.item-01 {
+    /* flex-grow:; Define a proporção que um item cresce */
+    flex-grow: 0;
+    /* flex-shrink define o máximo de encolhimento de um item */
+    flex-shrink: 1;
+    /* define o tamanho inicial do flex-item */
+    flex-basis: 1;
+}
+
+.item-02 {
+    /* flex-grow:; Define a proporção que um item cresce */
+    flex-grow: 0;
+    /* flex-shrink define o máximo de encolhimento de um item */
+    flex-shrink: 3;
+     /* define o tamanho inicial do flex-item */
+    flex-basis: 1;
+}
+
+.item-03 {
+    /* flex-grow:; Define a proporção que um item cresce */
+    flex-grow: 0;
+    /* flex-shrink define o máximo de encolhimento de um item */
+    flex-shrink: 5;
+     /* define o tamanho inicial do flex-item */
+    flex-basis: 1;
+}
+
+
+/* define o tamanho máximo de encolhimento do item */
+
+/* todos tem o valor 0, então valor negativo é primeiro */
+
+/* .ordem-01 { 
+    order: 1;
+}
+
+.ordem-02 {
+    order: 2;
+}
+
+.ordem-03 {
+    order: 3;
+}
+
+.ordem-04 {
+    order: 4;
+}
+
+.ordem{
+    order: -1;
+}
+
+#conteudo-02 {
+    display: flex;
+}
+*/
