@@ -1,0 +1,65 @@
+/* removendo configuração dos links */
+* {
+    list-style: none;
+    text-decoration: none;
+}
+
+/* coisa básica */
+body {
+    background: wheat url(/img/museu/fundo.png) repeat-x;
+    font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+}
+
+/* links */
+a:link, a:active, a:visited {
+    color: #af670a;
+}
+
+a:hover{
+    color: #227115;
+}
+
+/* coisa básica */
+#container {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+/* Logo */
+
+#logo h1{
+    float: left;
+}
+
+#logo a {
+    width: 248px;
+    height: 21px;
+    text-indent: -9000px;
+    display: block;
+    background: url(/img/museu/logo.png) no-repeat;
+}
+
+#cabecalho {
+    padding: 15px 0;
+    height: 55px;
+}
+
+nav ul{
+    margin: 20px;
+    float: right;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a:link{
+    display: block;
+    margin-right: 25px;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover{
+    border-bottom: 1px solid #535858;
+}
